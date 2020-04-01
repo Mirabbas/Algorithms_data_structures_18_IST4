@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{70E27394-C485-421F-BB7E-49737725D3F1}</ProjectGuid>
+    <ProjectGuid>{2B8C03DE-64B0-4219-B551-2EB0FBBC9401}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>quicksort</RootNamespace>
+    <RootNamespace>LastHidoku</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,10 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="quick_sort.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="quick_sort.h" />
+    <ClCompile Include="Last_Hidoku.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
